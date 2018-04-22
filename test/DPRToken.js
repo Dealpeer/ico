@@ -1,6 +1,6 @@
-var Token = artifacts.require("./DPTToken.sol");
+var Token = artifacts.require("./DPRToken.sol");
 
-contract('DPT Token', function(accounts) {
+contract('DPR Token', function(accounts) {
     let token;
     const owners = [accounts[0], accounts[1], accounts[2]];
     const creator = accounts[9];

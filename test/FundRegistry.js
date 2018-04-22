@@ -1,5 +1,5 @@
 var Fund = artifacts.require("./funds/FundsRegistry.sol");
-var Token = artifacts.require("./DPTToken.sol");
+var Token = artifacts.require("./DPRToken.sol");
 contract('FundRegistry', function(accounts) {
 
     let fund;

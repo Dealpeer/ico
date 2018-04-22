@@ -3,7 +3,7 @@ var moment = require('moment');
 var expectRevert = require('./helpers/expectRevert');
 var increaseTime = require('./helpers/increaseTime');
 
-var Token = artifacts.require("./DPTToken.sol");
+var Token = artifacts.require("./DPRToken.sol");
 var Fund = artifacts.require("./funds/FundsRegistry.sol");
 var PreICO = artifacts.require("./PreICO.sol");
 

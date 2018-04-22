@@ -3,7 +3,7 @@ var BigNumber = require('big-number');
 var expectRevert = require('./helpers/expectRevert');
 var increaseTime = require('./helpers/increaseTime');
 
-var Token = artifacts.require("./DPTToken.sol");
+var Token = artifacts.require("./DPRToken.sol");
 var Fund = artifacts.require("./funds/FundsRegistry.sol");
 var ICO = artifacts.require("./ICO.sol");
 var DevFund = artifacts.require("./DevFund.sol");

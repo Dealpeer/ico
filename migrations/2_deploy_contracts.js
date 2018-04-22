@@ -1,4 +1,4 @@
-var DPTToken = artifacts.require('DPTToken.sol');
+var DPRToken = artifacts.require('DPRToken.sol');
 var PreICO = artifacts.require('PreICO.sol');
 const Fund = artifacts.require("funds/FundsRegistry.sol");
 
@@ -16,9 +16,9 @@ module.exports = async (deployer) => {
 
     deployer.deploy(Fund, Owners, 2)
         .then(() => {
-            //return deployer.deploy(DPTToken, Owners);
+            //return deployer.deploy(DPRToken, Owners);
         })
         .then(() => {
-            //return deployer.deploy(PreICO,Owners, 2, Fund.address, DPTToken.address, 40000, 43000000);
+            //return deployer.deploy(PreICO,Owners, 2, Fund.address, DPRToken.address, 40000, 43000000);
         }); 
 };

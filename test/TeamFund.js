@@ -1,4 +1,4 @@
-var Token = artifacts.require("./DPTToken.sol");
+var Token = artifacts.require("./DPRToken.sol");
 var TeamFund = artifacts.require("./TeamFund.sol");
 var expectRevert = require('./helpers/expectRevert');
 var increaseTime = require('./helpers/increaseTime');

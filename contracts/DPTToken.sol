@@ -3,10 +3,10 @@ pragma solidity ^0.4.18;
 import "./token/MintableToken.sol";
 import "./security/ArgumentsChecker.sol";
 
-contract DPTToken is MintableToken, ArgumentsChecker {
+contract DPRToken is MintableToken, ArgumentsChecker {
     
     string public name = "DealPeer Token";
-    string public symbol = "DPT";
+    string public symbol = "DPR";
     uint public decimals = 18;
     bool public paused = true;
 
@@ -17,7 +17,7 @@ contract DPTToken is MintableToken, ArgumentsChecker {
         _;
     }
 
-    function DPTToken(address[] _owners) public 
+    function DPRToken(address[] _owners) public 
         MintableToken(_owners, 2)
     {
         require(3 == _owners.length);
